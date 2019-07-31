@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Dolce Vita";
+    src: url("../fonts/Dolce_Vita.ttf");
+}
+body {
+    line-height:0;
+    font-family: "Dolce Vita";
+    font-size: 20px;
+}
+button {
+    font-family: "Dolce Vita";
+    background-color: #3b91ed;
+    border-radius: 40%;
+    width: 40%;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    margin-top: 5%;
+    font-size: 4vw;
+    border: 0;
+}
+.done {
+    width: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 5vw;
+}
+.back {
+    position: absolute;
+    bottom:1vw;
+    right:1vw;
+    margin-top:0;
+    background-color: #dd0000;
+    width: 100px;
+    font-size:30px;
+}
+.remember {
+    margin:0 auto;
+    margin-top:0.5vh;
+    display:block;
+    max-width: 250px;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+}
+.difContainer {
+    margin:0 auto;
+    text-align:center;
+    line-height:0;
+    margin-top:5vh;
+    font-size:8vw;
+}
+.game {
+    margin:0 auto;
+    background-color:black;
+    vertical-align:middle;
+}
+.place {
+    background-color:white;
+    display:inline-block;
+}
+.range {
+    border:0;
+    width:50vw;
+    -webkit-appearance: none;
+    margin-top:10vh;
+    margin-bottom:6vh;
+}
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+.range:focus {
+    outline: none;
+}
+.range::-webkit-slider-runnable-track {
+    width: 50vw;
+    height: 1vw;
+    max-height: 1vh;
+    background: #bbb;
+    border: none;
+    border-radius: 1px;
+}
+.range::-moz-range-track {
+    width: 50vw;
+    height: 1vw;
+    max-height: 1vh;
+    background: rgba(59,145,237,0.5);
+    border: none;
+    border-radius: 1px;
+    cursor:pointer;
+}
+.range::-ms-track {
+    width: 50vw;
+    height: 1vw;
+    max-height: 1vh;
+    background: rgba(59,145,237,0.5);
+    border: none;
+    border-radius: 1px;
+    cursor:pointer;
+}
+.range:focus::-ms-fill-lower {
+    background: #999;
+}
+.range:focus::-ms-fill-upper {
+    background: #bbb;
+}
+.range::-moz-range-thumb {
+    border: none;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 0%;
+    background: #3b91ed;
+}
+.range::-ms-thumb {
+    border: none;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 0%;
+    background: #3b91ed;
+}
+.range::-webkit-slider-thumb {
+    border: none;
+    height: 5vw;
+    width: 5vw;
+    position: relative;
+    bottom: 2.5vw;
+    border-radius: 0%;
+    background: #3b91ed;
+}
+.range:-moz-focusring {
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
